@@ -124,3 +124,41 @@ img{
     font-size:14px;
     padding:5px 0;
 }
+
+/* pricing start */
+.pricing-parent{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+.pricing-parent h2{
+    text-align:center;
+    font-weight:700;
+    font-size:40px;
+    padding:20px 0;
+}
+.pricing-p{
+    text-align:center;
+}
+.pricing-card{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:10px;
+  
+}
+.pricing{
+    background-color:#E5E7EB;
+    border:1px solid #E5E7EB;
+    padding:20px;
+    /* text-align:center;  */
+    border-radius:10px;
+  
+   
+}
+.pricing-highlight{
+     background-color:#E5E7EB;
+    border:1px solid #E5E7EB;
+    padding:20px;
+    /* text-align:center;  */
+    border-radius:10px;
+}
